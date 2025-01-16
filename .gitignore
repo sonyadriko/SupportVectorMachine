@@ -1,0 +1,71 @@
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Byte-compiled / optimized / DLL files (Python)
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# C extensions (Python)
+backend/*.so
+
+# Distribution / packaging (Python)
+backend/.Python
+backend/env/
+backend/venv/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/*.egg
+backend/*.whl
+
+# Jupyter Notebook checkpoints (Python)
+backend/.ipynb_checkpoints
+
+# Unit test / coverage reports (Python)
+backend/htmlcov/
+backend/.coverage
+backend/*.cover
+backend/*.py,cover
+
+# mypy (Python)
+backend/.mypy_cache/
+
+# pyenv (Python)
+backend/.python-version
+
+# Laravel specific files (PHP/Bootstrap)
+frontend/vendor/
+frontend/node_modules/
+frontend/.env
+frontend/.phpunit.result.cache
+
+# Composer (PHP/Bootstrap)
+frontend/composer.lock
+
+# Log files (PHP)
+frontend/storage/logs/
+
+# Cache (PHP)
+frontend/storage/framework/cache/
+frontend/storage/framework/views/
+frontend/storage/framework/sessions/
+
+# Debug bar (PHP)
+frontend/storage/debugbar/
+
+# Bootstrap-specific (if using a precompiled package)
+frontend/bootstrap/cache/
+frontend/public/assets/
+
+# IDE files (General)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
